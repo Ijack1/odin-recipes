@@ -9,15 +9,10 @@
 
 body {
     margin: 0;
+    margin-top: 70px;
     padding: 0;
-    font-family:'Courier New', Courier, monospace;
-}
-
-header {
-    height: 600px;
-    padding-top: 200px;
-    background-image: url('../img/asiafoodbackfground.jpg');
-    background-repeat: repeat;
+    background-color: #708090;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #nav-bar {
@@ -62,8 +57,11 @@ nav a:hover {
 }
 
 .top-intor {
-    width: 60%;
+    padding-top: 200px;
+    height: 700px;
     margin-inline: auto;
+    background-image: url('../img/asiafoodbackfground.jpg');
+    background-repeat: repeat;
 }
 
 .top-intor p {
@@ -75,7 +73,6 @@ nav a:hover {
     color: var(--primary-color);
     font-weight: 700;
     margin-block: 30px;
-    
 }
 
 .left-margin-188px {
@@ -98,11 +95,54 @@ nav a:hover {
 }
 
 .recipe a {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     font-weight: 700;
     padding: 10px;
     text-decoration: none;
     color: #000000;
     border-radius: 10px;
     background-color: var(--primary-color);
+}
+
+.recipe a:hover {
+    color: white;
+}
+
+.recipe-intro {
+    text-align: center;
+    margin-inline: auto;
+    width: 60%;
+}
+
+.recipe-headding {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.recipes-container {
+    width: 50%;
+    margin-inline: auto;
+}
+
+.recipe-left {
+    margin-right: 10px;
+}
+
+.recipe-right {
+    width: 900px;
+}
+
+.alphabet-order {
+    list-style: lower-alpha;
+}
+
+
+footer {
+    text-align: center;
+    padding-top: 200px;
+    margin-inline: auto;
+    margin-top: 10px;
+    height: 300px;
+    background-color: lightgray;
 }
