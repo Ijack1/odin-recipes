@@ -20,7 +20,7 @@ body {
     padding: 4px;
     display: flexbox;
     position: fixed;
-    background-color: var(--background-color);
+    background-color: var(--nav-background-color);
 }
 
 nav {
