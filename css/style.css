@@ -8,9 +8,16 @@
 }
 
 body {
-    margin: 100px 0px 0px 0px;
+    margin: 0;
     padding: 0;
     font-family:'Courier New', Courier, monospace;
+}
+
+header {
+    height: 600px;
+    padding-top: 200px;
+    background-image: url('../img/asiafoodbackfground.jpg');
+    background-repeat: repeat;
 }
 
 #nav-bar {
@@ -52,4 +59,50 @@ nav a {
 nav a:hover {
     color: white;
     border-color: white;
+}
+
+.top-intor {
+    width: 60%;
+    margin-inline: auto;
+}
+
+.top-intor p {
+    font-size: 20px;
+}
+
+.align-center {
+    text-align: center;
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-block: 30px;
+    
+}
+
+.left-margin-188px {
+    margin-left: 188px;
+    margin-bottom: 0px;
+}
+
+.recipes-container {
+    display: flex;
+    justify-content: center;
+}
+
+.recipe {
+    width: 360px;
+    margin: 15px;
+}
+
+.recipe img {
+    border-radius: 10px;
+}
+
+.recipe a {
+    text-align: center;
+    font-weight: 700;
+    padding: 10px;
+    text-decoration: none;
+    color: #000000;
+    border-radius: 10px;
+    background-color: var(--primary-color);
 }
